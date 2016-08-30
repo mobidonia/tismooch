@@ -1,0 +1,3 @@
+"/Users/dimovdaniel/Documents/Appcelerator_Studio_Workspace/tismooch/android/build/generated/java/com/mobidonia/smooch/TismoochBootstrap.java"
+"/Users/dimovdaniel/Documents/Appcelerator_Studio_Workspace/tismooch/android/src/com/mobidonia/smooch/ExampleProxy.java"
+"/Users/dimovdaniel/Documents/Appcelerator_Studio_Workspace/tismooch/android/src/com/mobidonia/smooch/TismoochModule.java"

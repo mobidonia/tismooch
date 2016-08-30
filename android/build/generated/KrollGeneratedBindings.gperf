@@ -1,0 +1,18 @@
+%define lookup-function-name lookupGeneratedInit
+%define class-name TismoochBindings
+%{
+
+#include <string.h>
+#include <v8.h>
+#include <KrollBindings.h>
+
+#include "com.mobidonia.smooch.TismoochModule.h"
+#include "com.mobidonia.smooch.ExampleProxy.h"
+
+
+%}
+struct titanium::bindings::BindEntry;
+%%
+com.mobidonia.smooch.TismoochModule, ::com::mobidonia::smooch::TismoochModule::bindProxy, ::com::mobidonia::smooch::TismoochModule::dispose
+com.mobidonia.smooch.ExampleProxy, ::com::mobidonia::smooch::tismooch::ExampleProxy::bindProxy, ::com::mobidonia::smooch::tismooch::ExampleProxy::dispose
+%%

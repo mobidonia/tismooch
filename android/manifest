@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.2
+apiversion: 2
+architectures: armeabi armeabi-v7a x86
+description: Titanium Appcelerator Smooch module
+author: Daniel Dimo
+license: Specify your license
+copyright: Mobidonia
+
+# these should not be edited
+name: tismooch
+moduleid: com.mobidonia.smooch
+guid: 15c03d7d-e6df-4225-b2f2-2fb08115e24e
+platform: android
+minsdk: 5.4.0.GA
