@@ -58,7 +58,7 @@ public class TismoochModule extends KrollModule
     @Kroll.method
 	public void init(String id)
 	{
-		Log.d(LCAT, "init called"+id);
+		Log.d(LCAT, "init called "+id);
 		
 		/*TiApplication appContext = TiApplication.getInstance();
 		Activity activity = appContext.getCurrentActivity();
